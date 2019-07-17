@@ -93,6 +93,60 @@
         <pre v-highlightjs><code class="html">{{code6}}</code></pre>
       </template>
     </code-card>
+    <demo-doc>
+      <s-button>default</s-button>
+      <s-button type="primary">primary</s-button>
+      <s-button type="success">success</s-button>
+      <br>
+      <br>
+      <s-button type="info">info</s-button>
+      <s-button type="warning">warning</s-button>
+      <s-button type="danger">danger</s-button>
+      <br>
+      <br>
+      <s-button round>圆角按钮</s-button>
+      <s-button type="primary" round>圆角按钮</s-button>
+      <s-button type="success" round>圆角按钮</s-button>
+      <br>
+      <br>
+      <s-button type="info" round>圆角按钮</s-button>
+      <s-button type="warning" round>圆角按钮</s-button>
+      <s-button type="danger" round>圆角按钮</s-button>
+      <br>
+      <br>
+      <s-button rectangle>直角按钮</s-button>
+      <s-button type="primary" rectangle>直角按钮</s-button>
+      <s-button type="success" rectangle>直角按钮</s-button>
+      <br>
+      <br>
+      <s-button type="info" rectangle>直角按钮</s-button>
+      <s-button type="warning" rectangle>直角按钮</s-button>
+      <s-button type="danger" rectangle>直角按钮</s-button>
+      <br>
+      <br>
+      <s-button type="primary" disabled>禁用</s-button>
+      <br>
+      <br>
+      <s-button type="primary" loading>加载中</s-button>
+      <br>
+      <br>
+      <s-button icon="icon-send">发送</s-button>
+      <s-button type="primary" icon="icon-send">发送</s-button>
+      <s-button type="primary" circle icon="icon-send"></s-button>
+      <s-button type="danger" circle icon="icon-star"></s-button>
+      <br>
+      <br>
+      <s-button type="warning" size="mini" circle icon="icon-dingtalk"></s-button>
+      <br>
+      <br>
+      <s-button type="info" size="small" circle icon="icon-dingtalk"></s-button>
+      <br>
+      <br>
+      <s-button type="success" size="medium" circle icon="icon-dingtalk"></s-button>
+      <br>
+      <br>
+      <s-button type="primary" size="large" circle icon="icon-dingtalk"></s-button>
+    </demo-doc>
   </div>
 </template>
 
